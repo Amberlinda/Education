@@ -2,7 +2,17 @@ html,body{
     color: #555;
 }
 
+.jumbotron{
+    color: #fff;
+    background-image:linear-gradient(rgba(10, 106, 6, 0.87),rgba(10, 106, 6, 0.87)),url(../img/common.png);
+}
 
+/*--------------------------
+OWL COROUSEL
+----------------------------*/
+.owl-corousel{
+    margin-top: 30px;
+}
 
 /*--------------------------
 SIDENAV
