@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html,body{
     color: #555;
 }
@@ -5,6 +11,11 @@ html,body{
 .jumbotron{
     color: #fff;
     background-image:linear-gradient(rgba(10, 106, 6, 0.87),rgba(10, 106, 6, 0.87)),url(../img/common.png);
+}
+
+@media (min-width: 1200px)
+.container {
+    max-width: 1200px;
 }
 
 /*--------------------------
@@ -19,29 +30,27 @@ SIDENAV
 ----------------------------*/
 
 .sidenav {
-  height: 100%;
-  width: 160px;
-  position: fixed;
+  width: 130px;
+  position: sticky;
   z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
+  top: 20px;
+  left: 10px;
+  background: #eee;
   overflow-x: hidden;
-  padding-top: 20px;
+  padding: 8px 0;
 }
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #2196F3;
   display: block;
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
+  color: #064579;
 }
-
 /*--------------------------
 BODY
 ----------------------------*/
